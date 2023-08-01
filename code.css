@@ -1,0 +1,21 @@
+h1{
+    font-size:x-large;
+    color:red;
+  
+}
+h2{
+    color: seagreen;
+    text-align: center;
+}
+p{
+    color: darkolivegreen;
+   
+}
+section{
+    font-style: italic;
+    font-weight: lighter;
+    color:orange;
+}
+article{
+    font-weight: 100;
+}
