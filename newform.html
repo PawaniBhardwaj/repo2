@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="i/favicon.ico">
+    <style>
+        h1{
+           color: blue;
+           text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <form>
+        <h1>Contact Us</h1>
+        <div>
+            <label for="name.">FULL NAME</label>
+            <br>
+            <input type="text" id="name." placeholder="Name">
+            <br><br>
+            <label for="mailadd">EMAIL ADDRESS</label>
+            <br>
+            <input type="email" id="mailadd" placeholder="Email">
+            <br><br>
+            <label for="sub">SUBJECT</label>
+            <br>
+            <input type="text" id="sub" placeholder="Subject">
+            <br><br>
+            <label for="comment">MESSAGE</label>
+            <br>
+            <input type="textarea" id="comment" placeholder="Message">
+            <br><br>
+            <input type="button" value="Send Message">
+        </div>
+
+    <br><br><br>
+
+    <div>
+        <h1><u>ADMISSION FORM</u></h1>
+        <h6>All fields are mandatory*</h6>
+        <fieldset>
+            <legend>Student's Details</legend>
+            <label for="@name" >Full Name(in capital letters):</label>
+            <br>
+            <input type="text" id="@name" placeholder="First Name">
+            <input type="text" id="@name" placeholder="Middle Name">
+            <input type="text" id="@name" placeholder="Last Name">
+            <br><br>
+            <label for="rd">Gender:</label>
+            <br>
+            <label for="rd1">Male</label>
+            <input type="radio" id="rd1" name="1">
+            <label for="rd2">Female</label>
+            <input type="radio" id="rd2" name="1">
+            <label for="rd3">Prefer not to say</label>
+            <input type="radio" id="rd3" name="1">
+            <br><br>
+            <label for="dob">Date of Birth: </label>
+            <input type="date" id="dob" name="datepicker">
+            <br><br>
+            <label for="selector">Country:</label>
+            <select name="Country" id="selector" placeholder="Select">
+                <option value="other">Other</option>
+                <option value="Australia">Australia</option>
+                <option value="Germany">Germany</option>
+                <option value="Australia">India</option>
+                <option value="Australia">Japan</option>
+                <option value="Australia">China</option>
+            </select>    
+            <label for="selector">State:</label>
+            <select name="state" id="selector1" placeholder="Select">
+                <option value="other">Other</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">India</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Rajasthan">Rajasthan</option>
+            </select>    
+           
+        </fieldset>
+        <fieldset>
+            <legend>Address Details</legend>
+            <label for="add">Permanent Address:</label>
+            <input type="textarea" id="add" placeholder="Enter Address lane 1">
+            <br>
+            <input type="textarea" id="add" placeholder="Enter Address lane 2">
+            <br><br>
+             <label for="selector">City:</label>
+            <select name="city" id="selector2" placeholder="Select">
+                <option value="other">Other</option>
+                <option value="Barmer">Barmer</option>
+                <option value="Jaisalmer">Jaisalmer</option>
+                <option value="Jodhpur">Jodhpur</option>
+                <option value="Jaipur">Jaipur</option>
+                <option value="Dausa">Dausa</option>
+            </select>    
+             <label for="selector">State:</label>
+            <select name="state" id="selector1" placeholder="Select">
+                <option value="other">Other</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">India</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Rajasthan">Rajasthan</option>
+            </select>    
+            <label for="zipcode">Zip Code:</label>
+            <input type="number" id="zipcode">
+            <br><br>
+            <input type="checkbox" id="checkbox.">
+            <label for="checkbox.">Correspondence Address are same</label>
+        </fieldset>
+        <fieldset>
+            <legend>Guardian's Details</legend>
+            <select name="title" id="selector3" placeholder="Select">
+                <option value="select">Select</option>
+                <option value="ms">Miss</option>
+                <option value="mr">Mr</option>
+                <option value="mrs">Mrs</option>
+            </select>
+            <input type="text" placeholder="Enter Guardian's Full Name">
+            <br><br>
+            <label for="num">Guardian's Phone no.:</label>
+            <input type="tel" id="num" placeholder="+91-">
+            <br><br>
+            <label for="Address">Address:</label>
+            <input type="textarea" id="Address">
+        </fieldset>
+        <fieldset>
+            <legend>Topics of Interest</legend>
+            <br>  
+            <label for="checkbox1">HTML</label>
+            <br> 
+            <input type="checkbox" id="checkbox1">
+            <br>    
+            <label for="checkbox2">CSS</label>    
+            <br>     
+            <input type="checkbox" id="checkbox2">
+            <br>            
+            <label for="checkbox3">Java Script</label>
+            <br> 
+            <input type="checkbox" id="checkbox3">
+            <br>
+            <label for="checkbox3">Other</label>
+            <br> 
+            <input type="checkbox" id="checkbox3">
+            <input type="text" placeholder="Enter area of interests">
+        </fieldset>
+        <fieldset>
+            <legend>Documents</legend>
+            <label for="resume">Previous Year Marksheet:</label>
+            <input type="file" id="resume" value="Choose file">
+            <br><br>
+            <label for="aadhaar">Government Identity Proof:</label>
+            <input type="file" id="aadhaar" value="Upload file">
+            <br><br>
+            <label for="sign">Signature:</label>
+            <input type="file" id="sign" value="Choose file">
+        </fieldset>
+        <br><br>
+        <button><a href="next.html" target="_blank" class="b1">Next</a></button>
+    </div>
+    
+    </form>
+
+    <br><br><br><br> <br>
+    <br><br><br><br>
+        
+        <form>
+            <h1>Sample</h1>
+            <label for="Name">Enter your name here</label>
+            <input type="name" id="Name"> 
+
+            <br>
+            <br>
+
+            <label for="Name">Enter your name here</label>
+            <input type="name" id="Name" placeholder="Full Name"> 
+
+            <br><br>
+  
+            <label for="radio1">Male</label>
+            <input type="radio" id="radio1" name="1">
+
+            <label for="radio2">Female</label>
+            <input type="radio" id="radio2" name="1">
+
+            <br><br>
+
+            <label for="checkbox1">Medical</label>
+            <input type="checkbox" id="checkbox1">
+
+            <label for="checkbox2">Enginnering</label>
+            <input type="checkbox" id="checkbox2">
+
+            <label for="checkbox3">Law</label>
+            <input type="checkbox" id="checkbox3">
+
+            <br><br>
+
+            <label for="datepicker">Date of Birth</label>
+            <input type="date" id="datepicker" >
+
+            <br><br>
+
+            <label for="selector1">Select State</label>
+            <select name="States" id="selector1" placeholder="Select">
+                <option value="Gujarat">Gujarat</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Sikkim">Sikkim</option>
+            </select>
+
+            <br><br>
+
+            <button>Submit</button>
+
+        </form>
+
+        <br><br>
+
+        <form>
+            <h1>Event Registration</h1>
+
+            <br>
+
+            <label for="name1">Name</label>
+            <br>
+            <input type="name" id="name1">
+
+            <br><br>
+
+            <label for="mail1">Email</label>
+            <br>
+            <input type="email" id="mail1">
+
+            <br><br>
+
+            <label for="phone1">Phone</label>
+            <br>
+            <input type="tel" id="phone1">
+
+            <br><br>
+
+            <label for="Org1">Organization</label>
+            <br>
+            <select name="Organization" id="Org1">
+                <option value="Other">Other</option>
+                <option value="Government">Government</option>
+                <option value="Private">Private</option>
+                <option value="Semi-Government">Semi-Government</option>
+            </select>
+
+            <br><br>
+        <fieldset>
+            <legend>Topics of Interest</legend>
+            <br>  
+            <label for="checkbox1">HTML</label>
+            <br> 
+            <input type="checkbox" id="checkbox1">
+            <br>    
+            <label for="checkbox2">CSS</label>    
+            <br>     
+            <input type="checkbox" id="checkbox2">
+            <br>            
+            <label for="checkbox3">Java Script</label>
+            <br> 
+            <input type="checkbox" id="checkbox3">
+        </fieldset>
+
+            </form>
+
+            <br><br>
+
+            <label for="comment">Comments</label>
+            <br> 
+            <textarea type="textarea" id="comment"></textarea>
+            <input type="button" id="button1" value="Register">
+        </form>
+
+        <form>
+            <h1>Job Application</h1>
+
+            <br>
+
+            <label for="name1">Name:</label>
+            <br>
+            <input type="name" id="name1">
+
+            <br>
+
+            <label for="mail1">Email:</label>
+            <br>
+            <input type="email" id="mail1">
+
+            <br>
+
+            <label for="phone1">Phone:</label>
+            <br>
+            <input type="tel" id="phone1">
+
+            <br>
+
+            <label for="resume">Resume:</label>
+            <br>
+            <input type="file" id="resume" value="Choose file">
+
+            <br>
+
+            <label for="exp">Experience (year):</label>
+            <br>
+            <input type="number" id="exp">
+
+            <fieldset>
+                <legend>Skills</legend>
+            
+                <input type="checkbox" id="checkbox1">
+                <br>
+                <label for="checkbox1">HTML</label>
+                <br>
+                <input type="checkbox" id="checkbox2">
+                <br>
+                <label for="checkbox2">CSS</label>
+                <br>
+                <input type="checkbox" id="checkbox3">
+                <br>
+                <label for="checkbox3">Java Script</label>
+            </fieldset>
+
+            <br>
+
+            <label for="qualification">Highest Qualification:</label>
+            <br>
+            <select name="Qualification" id="qualification">
+                <option value="High School">High School</option>
+                <option value="Graduate">Graduate</option>
+                <option value="Post Graduate">Post Graduate</option>
+                <option value="College Student">College Student</option>
+            </select>
+
+            <br>
+
+        <fieldset>
+            <legend>Availability:</legend>
+            <br>
+            <input type="radio" id="radio1" name="1">
+            <br>
+            <label for="radio1">Full time</label>
+            <br>
+            <input type="radio" id="radio2" name="1">
+            <br>
+            <label for="radio2">Part time</label>
+        </fieldset>
+
+            <br>
+
+            <label for="textarea1">Additional Comments:</label>
+            <br>
+            <textarea type="textarea" id="textarea1"> </textarea>
+
+
+            <input type="button" id="button" value="Submit Application">
+
+        </form>
+
+        <br>
+
+        <form>
+            <h1>Complex Form</h1>
+
+            <br> 
+
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <label for="mail">Email</label>
+                <input type="email" id="mail">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone">
+                <label for="datepicker">Date of Birth</label>
+                <input type="date" id="datepicker">
+                <label for="Gender">Gender</label>
+                <label for="radio1">Male</label>
+                <input type="radio" id="radio1" name="1">
+                <label for="radio1">Female</label>
+                <input type="radio" id="radio2" name="1">
+                <label for="Country">Country</label>
+                <select name="country" id="Country">
+                <option value="United States">United States</option>
+                <option value="Europe">Europe</option>
+                <option value="Japan">Japan</option>
+                <option value="India">India</option>
+                <option value="South Korea">South Korea</option>
+                <option value="China">China</option>
+            </fieldset>
+
+<br>
+<br>
+
+            <fieldset>
+
+                <legend>Address</legend>
+            
+                <label for="Street">Street</label>
+                <input type="text" id="Street">
+                <label for="city">City</label>
+                <input type="text" id="city">
+                <label for="state">State</label>
+                <input type="text" id="state">
+                <label for="code">Zip Code</label>
+                <input type="text" id="code">
+            </fieldset>
+            
+                <br>
+ 
+
+
+<fieldset>
+    <legend>Other Information</legend>
+    <label for="comment">Comments</label>
+    <textarea name="textarea" id="comment"></textarea>
+    <label for="checkbox1">I agree to the terms of service</label>
+    <input type="checkbox" id="checkbox1">
+    <br>
+    
+</fieldset>
+<br>
+<input type="button" id="button1" value="Submit">
+        </form>
+    
+
+</body>
+</html>
