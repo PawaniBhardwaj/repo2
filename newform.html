@@ -45,9 +45,9 @@
             <legend>Student's Details</legend>
             <label for="@name" >Full Name(in capital letters):</label>
             <br>
-            <input type="text" id="@name" placeholder="First Name">
+            <input type="text" required  id="@name" placeholder="First Name">
             <input type="text" id="@name" placeholder="Middle Name">
-            <input type="text" id="@name" placeholder="Last Name">
+            <input type="text" id="@name" placeholder="Last Name"  required>
             <br><br>
             <label for="rd">Gender:</label>
             <br>
@@ -59,26 +59,8 @@
             <input type="radio" id="rd3" name="1">
             <br><br>
             <label for="dob">Date of Birth: </label>
-            <input type="date" id="dob" name="datepicker">
-            <br><br>
-            <label for="selector">Country:</label>
-            <select name="Country" id="selector" placeholder="Select">
-                <option value="other">Other</option>
-                <option value="Australia">Australia</option>
-                <option value="Germany">Germany</option>
-                <option value="Australia">India</option>
-                <option value="Australia">Japan</option>
-                <option value="Australia">China</option>
-            </select>    
-            <label for="selector">State:</label>
-            <select name="state" id="selector1" placeholder="Select">
-                <option value="other">Other</option>
-                <option value="Jharkhand">Jharkhand</option>
-                <option value="Madhya Pradesh">Madhya Pradesh</option>
-                <option value="Maharashtra">India</option>
-                <option value="Gujarat">Gujarat</option>
-                <option value="Rajasthan">Rajasthan</option>
-            </select>    
+            <input type="date"  id="dob" name="datepicker" >
+            
            
         </fieldset>
         <fieldset>
@@ -382,11 +364,13 @@
                 <input type="tel" id="phone">
                 <label for="datepicker">Date of Birth</label>
                 <input type="date" id="datepicker">
+                <br>
                 <label for="Gender">Gender</label>
                 <label for="radio1">Male</label>
                 <input type="radio" id="radio1" name="1">
-                <label for="radio1">Female</label>
+                <label for="radio2">Female</label>
                 <input type="radio" id="radio2" name="1">
+                <br>
                 <label for="Country">Country</label>
                 <select name="country" id="Country">
                 <option value="United States">United States</option>
@@ -395,17 +379,16 @@
                 <option value="India">India</option>
                 <option value="South Korea">South Korea</option>
                 <option value="China">China</option>
+                </select>
             </fieldset>
 
 <br>
 <br>
 
             <fieldset>
-
                 <legend>Address</legend>
-            
                 <label for="Street">Street</label>
-                <input type="text" id="Street">
+                <input type="text" id="Street" name="Street">
                 <label for="city">City</label>
                 <input type="text" id="city">
                 <label for="state">State</label>
@@ -414,9 +397,7 @@
                 <input type="text" id="code">
             </fieldset>
             
-                <br>
- 
-
+            <br>
 
 <fieldset>
     <legend>Other Information</legend>
